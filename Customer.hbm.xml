@@ -23,7 +23,7 @@
       <property name = "Country"/>
     </component>
 
-    <bag name = "Orders" table = "`Order`" cascade = "all-delete-orphan">
+    <bag name = "Orders" table = "`Order`" cascade = "all-delete-orphan" inverse = "true">
       <key column = "CustomerId"/>
       <one-to-many class = "Order"/>
     </bag>
