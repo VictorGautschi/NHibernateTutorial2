@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="NHibernate" Version="5.2.6" />
+    <PackageReference Include="NHibernate" Version="5.4.9" />
     <PackageReference Include="NHibernateProfiler" Version="5.0.5043" />
   </ItemGroup>
 
